@@ -1,0 +1,3 @@
+/home/shend/Downloads/System Monitor/build/CMakeFiles/rebuild_cache.dir
+/home/shend/Downloads/System Monitor/build/CMakeFiles/monitor.dir
+/home/shend/Downloads/System Monitor/build/CMakeFiles/edit_cache.dir

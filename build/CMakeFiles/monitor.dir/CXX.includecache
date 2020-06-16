@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/format.h
+string
+-
+
+../include/linux_parser.h
+fstream
+-
+regex
+-
+string
+-
+
+../include/ncurses_display.h
+curses.h
+-
+process.h
+../include/process.h
+system.h
+../include/system.h
+
+../include/process.h
+string
+-
+linux_parser.h
+../include/linux_parser.h
+
+../include/processor.h
+vector
+-
+string
+-
+
+../include/system.h
+string
+-
+vector
+-
+process.h
+../include/process.h
+processor.h
+../include/processor.h
+
+/home/shend/Downloads/System Monitor/src/format.cpp
+string
+-
+format.h
+/home/shend/Downloads/System Monitor/src/format.h
+
+/home/shend/Downloads/System Monitor/src/linux_parser.cpp
+dirent.h
+-
+unistd.h
+-
+string
+-
+vector
+-
+linux_parser.h
+/home/shend/Downloads/System Monitor/src/linux_parser.h
+
+/home/shend/Downloads/System Monitor/src/main.cpp
+ncurses_display.h
+/home/shend/Downloads/System Monitor/src/ncurses_display.h
+system.h
+/home/shend/Downloads/System Monitor/src/system.h
+
+/home/shend/Downloads/System Monitor/src/ncurses_display.cpp
+curses.h
+-
+chrono
+-
+string
+-
+thread
+-
+vector
+-
+format.h
+/home/shend/Downloads/System Monitor/src/format.h
+ncurses_display.h
+/home/shend/Downloads/System Monitor/src/ncurses_display.h
+system.h
+/home/shend/Downloads/System Monitor/src/system.h
+
+/home/shend/Downloads/System Monitor/src/process.cpp
+unistd.h
+-
+cctype
+-
+sstream
+-
+string
+-
+vector
+-
+process.h
+/home/shend/Downloads/System Monitor/src/process.h
+
+/home/shend/Downloads/System Monitor/src/processor.cpp
+processor.h
+/home/shend/Downloads/System Monitor/src/processor.h
+vector
+-
+string
+-
+linux_parser.h
+/home/shend/Downloads/System Monitor/src/linux_parser.h
+
+/home/shend/Downloads/System Monitor/src/system.cpp
+unistd.h
+-
+cstddef
+-
+set
+-
+string
+-
+vector
+-
+process.h
+/home/shend/Downloads/System Monitor/src/process.h
+processor.h
+/home/shend/Downloads/System Monitor/src/processor.h
+system.h
+/home/shend/Downloads/System Monitor/src/system.h
+linux_parser.h
+/home/shend/Downloads/System Monitor/src/linux_parser.h
+
